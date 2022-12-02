@@ -1,7 +1,7 @@
-import React, { useContext, useRef } from 'react';
-import User from '../../../models/User';
-import AppContext from '../../../store/appContext';
-import Form1 from '../../ui/Form1';
+import React, { useContext, useRef } from "react";
+import User from "../../../models/User";
+import AppContext from "../../../store/appContext";
+import Form1 from "../../ui/Form1";
 
 const AddPeople: React.FC = () => {
   const appCtx = useContext(AppContext);
@@ -11,7 +11,7 @@ const AddPeople: React.FC = () => {
     e.preventDefault();
     if (!userNameRef.current) return;
     appCtx.onNewUserEntry(new User(userNameRef.current.value));
-    userNameRef.current.value = '';
+    userNameRef.current.value = "";
     userNameRef.current.blur();
   };
 
@@ -21,7 +21,7 @@ const AddPeople: React.FC = () => {
       title="Add People"
       onSubmitHandler={submitHandler}
       userRef={userNameRef}
-      placeholder="Enter Name Here"
+      placeholder="Add Name..."
       btnText="Add"
     />
   );

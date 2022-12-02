@@ -1,11 +1,7 @@
-import Home from './components/home/Home';
-// import Container from './components/ui/Container';
+import Home from "./components/home/Home";
 
 function App() {
-  return (
-      <Home/>
-  );
+  return <Home />;
 }
 
 export default App;
-

@@ -1,5 +1,5 @@
-import React from 'react';
-import Select from 'react-dropdown-select';
+import React from "react";
+import Select from "react-dropdown-select";
 
 const DropDown: React.FC<{
   placeholder: string;
@@ -7,8 +7,6 @@ const DropDown: React.FC<{
   onSelection: (user: { value: string; label: string }) => void;
 }> = (props) => {
   const inputChangeHandler = (values: { value: string; label: string }[]) => {
-    // const value = values[0];
-    // if (!props.options.includes(value)) return;
     props.onSelection(values[0]);
   };
 
