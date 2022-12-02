@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/findmutualconnection/static/css/main.694e0fe4.css",
+    "main.js": "/findmutualconnection/static/js/main.b82cd371.js",
+    "index.html": "/findmutualconnection/index.html",
+    "main.694e0fe4.css.map": "/findmutualconnection/static/css/main.694e0fe4.css.map",
+    "main.b82cd371.js.map": "/findmutualconnection/static/js/main.b82cd371.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.694e0fe4.css",
+    "static/js/main.b82cd371.js"
+  ]
+}
