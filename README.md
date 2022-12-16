@@ -1,3 +1,5 @@
+[FindMutuals.webm](https://user-images.githubusercontent.com/94825943/205276071-7c3f0428-edef-4921-849a-c4e383678ec3.webm)
+
 It is said that all people on average are six, or fewer, social connections away from each other.This app that helps you find the degree of separation between any two people. Think of it as selecting two users on Facebook and trying to see how these two people are connected. 
 
 
@@ -36,4 +38,3 @@ If I select the other two people, let’s say Kamalnath Sharma and Bhaskar, the 
 1. Kamalnath Sharma > Shanti Kumar Saha > Bhaskar
 
 
-[FindMutuals.webm](https://user-images.githubusercontent.com/94825943/205276071-7c3f0428-edef-4921-849a-c4e383678ec3.webm)
